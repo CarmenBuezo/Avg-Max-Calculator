@@ -1,0 +1,50 @@
+/*div {
+    border: 1px gray solid;
+}*/
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#mainBox {
+    margin: auto;
+    width: 25%;
+}
+
+#bigBox {
+    margin: 10% 25%;
+}
+
+.heading {
+    text-align: center;
+    display: inline;
+}
+
+#textBox {
+    margin: auto;
+    border: 2px blue solid;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+    align-self: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    #mainBox {
+        margin: auto;
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    #bigBox {
+        margin: 15% 10%;
+        width: 90%;
+    }
+}
